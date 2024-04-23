@@ -25,7 +25,4 @@ document.write(Son)
 
 document.write("<br>" + (5 + 2)+"<br>"); //if write an expression in a sentence, include a ()
 
-function My_First_Function() {
-    var str = "This is the button text!";
-    document.getElementById("Button_Text").innerHTML = str;
-}
+
