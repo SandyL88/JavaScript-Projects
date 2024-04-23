@@ -1,2 +1,3 @@
 # JavaScript-Projects
- Learning Javascript, prograss by prograss
+ Learning Javascript, progress by progress
+# For assignments and Challenges
