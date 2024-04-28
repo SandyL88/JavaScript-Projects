@@ -8,3 +8,6 @@ function myFunction() {
     sentence += " a lot from this book!";
     document.getElementById("Concatenate").innerHTML = sentence;
 }
+
+document.getElementsByTagName("title")[0].innerHTML = "Javascript Functions";
+
