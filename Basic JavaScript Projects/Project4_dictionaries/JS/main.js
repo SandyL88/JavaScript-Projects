@@ -19,6 +19,9 @@ function my_dictionary() {
             published_year: "1996",
         },
     ];
+    
+    delete books[0].publishers;
+
     var booksInfo = "";
     for (var i = 0; i < books.length; i++) {
         var bookInfo = "Child book: " + books[i].name + "<br>" +
@@ -28,6 +31,6 @@ function my_dictionary() {
         booksInfo += bookInfo;
     }
 
-    delete books[0].publishers;
+    
     document.getElementById("Dictionary").innerHTML = "Child book:" + booksInfo;
 }
