@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Assignment</title>
+    <script src="JS/javascript_2.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="CSS/css_2.css">
+</head>
+<body>
+
+<div>
+<form name="myForm" action="/html2.html" onsubmit="return validateForm()" method="post">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <span><p>Choose your favorite Web language:</p></span>
+    
+    <label for ="Web_Language">Web Language:</label>
+    <select id="Web_Language" name="Web_Language">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="Javascript">Javascript</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+</div>
+
+
+
+
+</body>
+</html>
